@@ -89,3 +89,35 @@ body{
 .main-content a:hover ~i{
 transform: translateX(55%);
 }
+
+
+
+/* about us css */
+.aboutus{
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(0, 0, 0);
+   text-align: center;
+  
+}
+.aboutus h2{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.aboutus .coveras{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutus .aboutdetails{
+    width: 400px;
+    height: 500px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px gray;
+    position: relative;
+    
+}
+
+
