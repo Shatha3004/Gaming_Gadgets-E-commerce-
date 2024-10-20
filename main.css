@@ -5,6 +5,7 @@
 body{
    
         font-family:"Odibee Sans", sans-serif;
+        background-color: black;
        
 }
 
@@ -87,9 +88,10 @@ body{
   font-size:25px ;
   transition: .5s ease-in-out ;
 }
-.main-content a:hover ~i{
+.main-content a:hover ~ i{
 transform: translateX(55%);
 }
+
 
 
 
@@ -101,25 +103,60 @@ transform: translateX(55%);
    text-align: center;
   
 }
-.aboutus h2{
+.aboutus .h2{
     color: white;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .aboutus .coveras{
     display: flex;
     justify-content: space-evenly;
 }
 
-.aboutus .aboutdetails{
+ .aboutdetails{
     width: 400px;
     height: 500px;
     cursor: pointer;
     border-radius: 15px;
     border: 1px solid white;
     position: relative;
+    z-index: 10;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    overflow: hidden;
     
 }
+.aboutdetails img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.aboutdetails .popdetails{
+    position: absolute;
+    left: 0;
+    top: 90%;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255);
+    transition: .5s all ease-in-out;
+   
+
+}
+.aboutdetails .popdetails h2{
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.aboutdetails:hover .popdetails{
+    top: 50%;
+}
+
+
+
+
 
 
 
@@ -134,8 +171,9 @@ transform: translateX(55%);
 }
 
 .slider h1{
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 30px;
+    /* text-shadow: 2px 1px 5px red; */
 }
 
 .container{
@@ -204,6 +242,7 @@ transform: translateX(55%);
     width: 300px;
     text-align: left;
     color: #eee;
+    text-shadow: 2px 5px 5px black;
     transform: translate(0,-50%);
     display: none;
    
@@ -215,6 +254,7 @@ transform: translateX(55%);
 .slide .item:nth-child(2) .content{
     display: block;
     color: rgb(255, 255, 255);
+    text-shadow: 2px 5px 5px black;
 }
 
 
@@ -278,3 +318,65 @@ transform: translateX(55%);
     color: #fff;
 }
 
+
+
+
+/* gaming-gadgets-container */
+
+
+.gadgets-container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 80px;
+   
+    
+}
+
+.gadgets-container h1{
+    color: rgb(255, 255, 255);
+}
+
+.gaming-items{
+    width: 80%;
+    height: 500px;
+    padding: 15px;
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+   
+  
+   
+}
+.gaming-items img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    animation: imgscroll 5s linear  infinite;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.gaming-items img:hover{
+    transform: scale(1.1);
+}
+
+/* footer */
+.footer-section{
+    width: 100%;
+    height: 50vh;
+
+}
+
+@keyframes imgscroll{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-250px);
+    }
+}
