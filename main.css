@@ -154,7 +154,7 @@ transform: translateX(55%);
     margin-top: 15px;
 }
 
-.aboutdetails:hover .popdetails{
+.aboutdetails:hover  .popdetails{
     top: 50%;
 }
 
