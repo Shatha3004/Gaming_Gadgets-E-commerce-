@@ -12,16 +12,113 @@ prev.addEventListener("click",function(){
 })
 
 
-var first=document.getElementById("first");
-var second=document.getElementById("second");
-var third=document.getElementById("third");
+// overlay
+                // var overlay=document.getElementById("overlay2");
+               
 
-var content1=document.getElementById("r1");
-var content2=document.getElementById("r2");
-var content3=document.getElementById("r3");
+                document.getElementById("press").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
 
+                document.getElementById("press1").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
+                document.getElementById("press2").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
+                document.getElementById("press3").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
+                document.getElementById("press4").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
+                document.getElementById("press5").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
+                document.getElementById("press6").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
+                document.getElementById("press7").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
+                document.getElementById("press8").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
 
-if(first == checked)
-{
-    
-}
+                document.getElementById("press9").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
+                document.getElementById("press10").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
+                document.getElementById("press11").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
+                document.getElementById("press12").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
+                document.getElementById("press13").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="block"
+                     document.getElementById("overlay2").style.display="flex"
+                     document.getElementById("overlay2").style.justifyContent="center"
+                     document.getElementById("overlay2").style.alignItems="center"
+                })
+                document.getElementById("press21").addEventListener("click",function()
+                {
+                     document.getElementById("overlay2").style.display="none"
+                     alert("ORDER PLACED SUCCESSFULLY")
+                  
+                })
